@@ -1,0 +1,223 @@
+*{
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu, Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color: #F4F5F8;
+    box-sizing: border-box;
+}
+main{
+    background: #17161D
+}
+header{
+    background: #17161D;
+    border: 1px solid #000;
+}
+header div{
+    width: 775px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h1{
+    display: inline-block;
+    width: 250px;
+    margin: 0;
+}
+header ul{
+    width: 250px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: initial;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+header li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header svg{
+    width: 80px;
+    height: auto;
+}
+header svg{
+
+}
+section{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 125px 130px;
+}
+section:nth-child(even){
+    background-color: #1A1921;
+}
+section p span{
+    border: 1px solid #F4F5F8;
+    font-size: 0.8rem;
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+section .img-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./assets/landscape.jpeg') center center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+}
+section .img-wrapper img{
+    width: 50%;
+    border-radius: 6px;
+}
+section .note{
+
+    margin-top: 30px;
+    font-size: 11px;
+}
+section .actions {
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 38px;
+}
+section .actions a{
+    color: #5E6AD2;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-right: 25px;
+}
+h4{
+    margin: 8px 0;
+    font-size: 25px;
+}
+h5{
+    color: #5E6AD2;
+    font-size: 11px;
+    margin: 0;
+
+}
+h4 + p{
+
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.hero{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 0;
+    position: relative;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#15225b+0,000000+0,1b2472+31,541445+78,000000+100&1+1,0.89+98 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(1,1,4,1) 1%,rgba(27,36,114,0.97) 31%,rgba(84,20,69,0.91) 78%,rgba(8,2,6,0.89) 98%,rgba(0,0,0,0.89) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.hero:before{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+98&0+1,0.89+98 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.89) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.hero h2{
+    font-size: 50px;
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+}
+.hero h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: normal;
+    letter-spacing: 0.5em;
+    font-size: 13px;
+    margin: 30px 0 15px
+}
+.hero p{
+    width: 570px;
+    text-align: center;
+    margin: 21px auto;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01rem;
+}
+.form{
+    width: 400px;
+    background: rgba(0,0,0,0.6);
+    margin: 40px auto;
+    padding: 10px;
+
+}
+.form input{
+    height: 35px;
+    background: none;
+    outline: none;
+    border: none;
+    display: inline-block;
+    width: 68%;
+}
+.form button{
+    height: 35px;
+    width: 30%;
+    display: inline-block;
+    background: #5E6AD2;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 11px;
+
+}
+.hero img{
+    width: 100%;
+    margin-top: 40px;
+}
+.tile-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.tile-holder .tile{
+    background: #27282D;
+    width: 33%;
+    padding: 29px 30px 29px 22px;
+}
+.tile-holder .tile{
+    border: 1px solid #17161D;
+}
+.tile-holder .tile svg{
+    width: 16px;
+    height: auto;
+}
+.tile-holder .tile h6{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 9px 0 0 0;
+}
+.tile-holder .tile p{
+    margin: 5px 0 0 0;
+    font-size: 11px;
+    line-height: 16px;
+
+}
+.person-card-holder{
+    display: flex;
+}
+.person-card-holder .person-card{
+
+}
+img{
+    width: 50px
+}
